@@ -10,7 +10,7 @@ if (isset($_SESSION['win'])) {
 	$display = "block";
 } else
 	$display = "none";
-
+ 
 ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
