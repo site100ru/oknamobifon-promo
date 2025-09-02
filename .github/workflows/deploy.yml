@@ -16,7 +16,7 @@ jobs:
           key: ${{ secrets.OKNAMOBIFON_KEY }}
           script: |
 
-            # For first deploy
+            # For first deploy1
             cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
             git clone https://github.com/site100ru/oknamobifon-promo.git .
             
