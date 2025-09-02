@@ -1,19 +1,8 @@
-name: Deploy oknamobifon-promo
+name: Deploy to Server
 
 on:
   push:
     branches: [main]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      name: Deploy to Oknamobifon
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
 
 jobs:
   deploy:
@@ -22,45 +11,29 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Debug SSH connection
+      - name: Setup SSH and deploy
         run: |
-          # Сохраняем ключ из секрета во временный файл
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > /tmp/debug_key
-          chmod 600 /tmp/debug_key
+          # Создаем файл с ключом
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > key
+          chmod 600 key
           
-          # Проверяем содержимое ключа
-          echo "=== Key content (first 100 chars) ==="
-          head -c 100 /tmp/debug_key
-          echo -e "\n\n=== Key content (last 100 chars) ==="
-          tail -c 100 /tmp/debug_key
-          echo -e "\n"
-          
-          # Проверяем формат ключа
-          echo "=== Key format check ==="
-          ssh-keygen -l -f /tmp/debug_key || echo "Key format is invalid!"
-          
-          # Пробуем подключиться с максимально подробным выводом
-          echo "=== Trying connection ==="
-          ssh -vvv -i /tmp/debug_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "echo 'SUCCESS'" || echo "CONNECTION FAILED"
-          
-          # Убираем за собой
-          rm -f /tmp/debug_key
-
-      - name: Setup SSH
-        run: |
+          # Добавляем сервер в known_hosts
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Deploy application
-        run: |
-          ssh -i ~/.ssh/deploy_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
+          
+          # Выполняем команды на сервере
+          ssh -o StrictHostKeyChecking=no -i key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
             cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
             if [ -d .git ]; then
+              echo 'Updating existing repository...'
               git pull origin main
             else
+              echo 'Cloning new repository...'
               rm -rf *
               git clone https://github.com/site100ru/oknamobifon-promo.git .
             fi
+            echo 'Deployment completed successfully!'
           "
+          
+          # Очищаем ключ
+          rm -f key
