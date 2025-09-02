@@ -41,3 +41,13 @@ jobs:
             fi
           "
           rm -f key 
+        - name: Debug network connection
+          run: |
+            # Проверяем доступность порта
+            timeout 5 nc -zv ${{ secrets.OKNAMOBIFON_HOST }} 22 || echo "Port check failed"
+            
+            # Проверяем DNS разрешение
+            nslookup ${{ secrets.OKNAMOBIFON_HOST }}
+            
+            # Проверяем базовую сетевую доступность
+            timeout 5 curl -v telnet://${{ secrets.OKNAMOBIFON_HOST }}:22 2>&1 | head -10
