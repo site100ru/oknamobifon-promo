@@ -8,18 +8,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Connect to server
-        uses: appleboy/ssh-action@v0.1.10
-        with:
-          host: ${{ secrets.OKNAMOBIFON_HOST }}
-          username: ${{ secrets.OKNAMOBIFON_USER }}
-          key: ${{ secrets.OKNAMOBIFON_KEY }}
-          script: |
-
-            # For first deploy12
-            cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
-            git clone https://github.com/site100ru/oknamobifon-promo.git .
+      - name: Debug SSH connection
+          run: |
+            # Сохраняем ключ из секрета во временный файл
+            echo "${{ secrets.SSH_PRIVATE_KEY }}" > /tmp/debug_key
+            chmod 600 /tmp/debug_key
             
-            # For next deploys
-            # cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
-            # git pull
+            # Проверяем содержимое ключа
+            echo "=== Key content (first 100 chars) ==="
+            head -c 100 /tmp/debug_key
+            echo -e "\n\n=== Key content (last 100 chars) ==="
+            tail -c 100 /tmp/debug_key
+            echo -e "\n"
+            
+            # Проверяем формат ключа
+            echo "=== Key format check ==="
+            ssh-keygen -l -f /tmp/debug_key || echo "Key format is invalid!"
+            
+            # Пробуем подключиться с максимально подробным выводом
+            echo "=== Trying connection ==="
+            ssh -vvv -i /tmp/debug_key ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "echo 'SUCCESS'" || echo "CONNECTION FAILED"
+            
+            # Убираем за собой
+            rm -f /tmp/debug_key
