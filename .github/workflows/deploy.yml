@@ -40,4 +40,4 @@ jobs:
               git clone https://github.com/site100ru/oknamobifon-promo.git .
             fi
           "
-          rm -f key
+          rm -f key 
