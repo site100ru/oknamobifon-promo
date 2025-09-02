@@ -4,35 +4,22 @@ on:
   push:
     branches: [main]
 
+name: Deploy to Reg.ru
+
+on:
+  push:
+    branches: [main]
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.OKNAMOBIFON_NEW_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H ${{ secrets.OKNAMOBIFON_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Test connection
-        run: |
-          ssh -i ~/.ssh/deploy_key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "echo '✅ Connection successful'"
-
-      - name: Deploy application
-        run: |
-          ssh -i ~/.ssh/deploy_key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "
-            cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
-            if [ -d .git ]; then
-              echo 'Updating repository...'
-              git pull origin main
-            else
-              echo 'Cloning repository...'
-              rm -rf *
-              git clone https://github.com/site100ru/oknamobifon-promo.git .
-            fi
-            echo 'Deployment completed successfully!'
-          "
+      - name: Connect to server
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.OKNAMOBIFON_HOST }}
+          username: ${{ secrets.OKNAMOBIFON_USERNAME }}
+          key: ${{ secrets.OKNAMOBIFON_NEW_KEY }}
+          script: |
+            cd /var/www/u1538455/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
+            git pull
