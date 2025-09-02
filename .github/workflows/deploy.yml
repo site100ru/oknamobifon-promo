@@ -13,41 +13,26 @@ jobs:
 
       - name: Setup SSH
         run: |
-          # Создаем файл с ключом
-          echo "${{ secrets.OKNAMOBIFON_NEW_KEY }}" > key
-          chmod 600 key
-          
-          # Проверяем ключ
-          echo "=== Key info ==="
-          ssh-keygen -l -f key
-          
-          # Добавляем сервер в known_hosts
           mkdir -p ~/.ssh
+          echo "${{ secrets.OKNAMOBIFON_NEW_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.OKNAMOBIFON_HOST }} >> ~/.ssh/known_hosts
-          
-          # Пробуем простое подключение
-          echo "=== Testing connection ==="
-          ssh -v -i key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "echo 'Test successful'" || echo "Connection failed"
+
+      - name: Test connection
+        run: |
+          ssh -i ~/.ssh/deploy_key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "echo '✅ Connection successful'"
 
       - name: Deploy application
         run: |
-          ssh -i key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "
+          ssh -i ~/.ssh/deploy_key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "
             cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
             if [ -d .git ]; then
+              echo 'Updating repository...'
               git pull origin main
             else
+              echo 'Cloning repository...'
               rm -rf *
               git clone https://github.com/site100ru/oknamobifon-promo.git .
             fi
+            echo 'Deployment completed successfully!'
           "
-          rm -f key 
-        - name: Debug network connection
-          run: |
-            # Проверяем доступность порта
-            timeout 5 nc -zv ${{ secrets.OKNAMOBIFON_HOST }} 22 || echo "Port check failed"
-            
-            # Проверяем DNS разрешение
-            nslookup ${{ secrets.OKNAMOBIFON_HOST }}
-            
-            # Проверяем базовую сетевую доступность
-            timeout 5 curl -v telnet://${{ secrets.OKNAMOBIFON_HOST }}:22 2>&1 | head -10
