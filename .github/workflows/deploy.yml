@@ -14,7 +14,7 @@ jobs:
       - name: Setup SSH
         run: |
           # Создаем файл с ключом
-          echo "${{ secrets.OKNAMOBIFON_KEY }}" > key
+          echo "${{ secrets.OKNAMOBIFON_NEW_KEY }}" > key
           chmod 600 key
           
           # Проверяем ключ
@@ -27,11 +27,11 @@ jobs:
           
           # Пробуем простое подключение
           echo "=== Testing connection ==="
-          ssh -v -i key ${{ secrets.OKNAMOBIFON_NAME }}@${{ secrets.OKNAMOBIFON_HOST }} "echo 'Test successful'" || echo "Connection failed"
+          ssh -v -i key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "echo 'Test successful'" || echo "Connection failed"
 
       - name: Deploy application
         run: |
-          ssh -i key ${{ secrets.OKNAMOBIFON_NAME }}@${{ secrets.OKNAMOBIFON_HOST }} "
+          ssh -i key ${{ secrets.OKNAMOBIFON_USERNAME }}@${{ secrets.OKNAMOBIFON_HOST }} "
             cd /var/www/u1079678/data/www/oknamobifon.ru/wp-content/themes/oknamobifon/promo
             if [ -d .git ]; then
               git pull origin main
