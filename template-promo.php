@@ -10,7 +10,7 @@ if (isset($_SESSION['win'])) {
 	$display = "block";
 } else
 	$display = "none";
- 
+
 ?>
 <!DOCTYPE html>
 <html lang="ru-RU">
@@ -28,28 +28,7 @@ if (isset($_SESSION['win'])) {
 		href="/wp-content/themes/oknamobifon/assets/favicon/apple-touch-icon.png" />
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 	<!-- This site is optimized with the Yoast SEO plugin v25.2 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Акции на окна ПВХ - скидки на остекление в Москве | ОкнаМобифон</title>
-	<meta name="description"
-		content="Выгодные акции на пластиковые окна ПВХ, остекление балконов и лоджий. Скидки, рассрочка без процентов. Качественная установка с гарантией. Звоните: +7 (495) 646-49-59" />
-
-	<meta name="keywords"
-		content="акции на окна, скидки на окна пвх, акции остекление балконов, окна со скидкой москва, рассрочка на окна, выгодные предложения окна" />
-
-	<link rel="canonical" href="https://oknamobifon.ru/promo-okna/" />
-
-	<meta property="og:locale" content="ru_RU">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Акции на окна ПВХ - скидки на остекление в Москве">
-	<meta property="og:description"
-		content="Выгодные акции на пластиковые окна ПВХ, остекление балконов и лоджий. Скидки, рассрочка без процентов. Качественная установка с гарантией 5 лет.">
-	<meta property="og:url" content="https://www.oknamobifon.ru/promo-okna/">
-	<meta property="og:site_name" content="ОкнаМобифон">
-	<meta property="article:modified_time" content="2025-06-04T19:40:22+00:00">
-	<meta property="og:image" content="https://www.oknamobifon.ru/wp-content/uploads/2025/05/woman.jpg">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="768">
-	<meta property="og:image:type" content="image/jpeg">
-
+	<title>Входные двери. Изготовление и монтаж деревянных и пластиковых окон в Москве</title>
 	<!-- <link
 			rel="stylesheet"
 			id="wp-block-library-css"
@@ -91,7 +70,7 @@ if (isset($_SESSION['win'])) {
 			margin-top: 20px;
 		}
 	</style>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/promo/css/stocks.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/stocks.css" type="text/css" />
 </head>
 
 <body
@@ -468,8 +447,8 @@ if (isset($_SESSION['win'])) {
 								alt="rehau" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Rehau</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
-									alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
+									class="mb-2 img-fluid" alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>9&nbsp;940</span> руб/м<sup>2</sup>
@@ -488,8 +467,8 @@ if (isset($_SESSION['win'])) {
 								alt="KBE" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">KBE</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
-									alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
+									class="mb-2 img-fluid" alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>9&nbsp;040</span> руб/м<sup>2</sup>
@@ -508,8 +487,8 @@ if (isset($_SESSION['win'])) {
 								alt="Novotex" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Novotex</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
-									alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
+									class="mb-2 img-fluid" alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>8&nbsp;240</span> руб/м<sup>2</sup>
@@ -528,8 +507,8 @@ if (isset($_SESSION['win'])) {
 								alt="Provedal" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Provedal</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
-									alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
+									class="mb-2 img-fluid" alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>6&nbsp;040</span> руб/м<sup>2</sup>
@@ -2208,7 +2187,7 @@ if (isset($_SESSION['win'])) {
 					<div class="col-lg-8">
 						<div class="section-reputation__item">
 							<div class="section-reputation__item-mark">
-								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-yandex-map.svg"
+								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icon-yandex-map.svg"
 									alt="Яндекс Карты" />
 								5.0
 							</div>
@@ -2224,7 +2203,7 @@ if (isset($_SESSION['win'])) {
 					<div class="col-lg-8">
 						<div class="section-reputation__item">
 							<div class="section-reputation__item-mark">
-								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-2gis.svg" alt="2ГИС" />
+								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icon-2gis.svg" alt="2ГИС" />
 								5
 							</div>
 							<div class="section-reputation__item-stars">
@@ -2242,67 +2221,67 @@ if (isset($_SESSION['win'])) {
 						<div class="carousel">
 							<div class="carousel__track">
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/samolet.png"
 										alt="Самолет" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/a101.png"
 										alt="А101" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/pervyj-kanal.png"
 										alt="Первый канал" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mgts.png"
 										alt="МГТС" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mvideo.png"
 										alt="М.Видео" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/gloriya.png"
 										alt="Gloria Jeans" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/kfc.png"
 										alt="KFC" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/aeroflot.png"
 										alt="Аэрофлот" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/samolet.png"
 										alt="Самолет" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/a101.png"
 										alt="А101" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/pervyj-kanal.png"
 										alt="Первый канал" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mgts.png"
 										alt="МГТС" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mvideo.png"
 										alt="М.Видео" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/gloriya.png"
 										alt="Gloria Jeans" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/kfc.png"
 										alt="KFC" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/aeroflot.png"
 										alt="Аэрофлот" />
 								</div>
 							</div>
@@ -2408,6 +2387,15 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/dd9fda5d2b702091455f0b8181e01e19-1-200x300.jpg 200w,
 									https://oknamobifon.ru/wp-content/uploads/2025/03/dd9fda5d2b702091455f0b8181e01e19-1.jpg         427w
 								" sizes="(max-width: 200px) 100vw, 200px" />
+					</a>
+					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241.jpg"
+						target="_blank" data-pswp-width="361" data-pswp-height="480" class="gallery-grid__item">
+						<img width="226" height="300"
+							src="https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241-226x300.jpg"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" srcset="
+									https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241-226x300.jpg 226w,
+									https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241.jpg         361w
+								" sizes="(max-width: 226px) 100vw, 226px" />
 					</a>
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/6bbff4e5b4214357a1a1c73cf176c8db.jpg"
 						target="_blank" data-pswp-width="360" data-pswp-height="480" class="gallery-grid__item">
@@ -2672,20 +2660,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ddf73e20fe44dea2cda5fd73c87ee1f0.jpg         412w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
-					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8.jpg"
-						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
-						<img width="300" height="225"
-							src="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8-300x225.jpg"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async"
-							srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8-300x225.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8.jpg 480w"
-							sizes="(max-width: 300px) 100vw, 300px"> </a>
-					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6.jpg"
-						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
-						<img width="300" height="225"
-							src="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6-300x225.jpg"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async"
-							srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6-300x225.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6.jpg 480w"
-							sizes="(max-width: 300px) 100vw, 300px"> </a>
 				</div>
 			</div>
 		</section>
@@ -2879,8 +2853,8 @@ if (isset($_SESSION['win'])) {
 								<p class="section__subtitle">
 									Получите бесплатную консультацию у нашиx специалистов
 								</p>
-								<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php"
-									id="callback" method="post" name="callback" class="form" style="max-width: 600px">
+								<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php" id="footer-callback"
+									method="post" name="feedback" class="form" style="max-width: 600px">
 									<div class="loader-box"><span class="loader"></span></div>
 
 									<input type="hidden" name="form-source" value="footer-callback">
@@ -2979,6 +2953,57 @@ if (isset($_SESSION['win'])) {
 						}
 					});
 				}
+
+				// Обработчик отправки формы
+				form.addEventListener('submit', function (e) {
+					e.preventDefault();
+
+					// Показываем лоадер
+					if (loader) {
+						loader.style.display = 'flex';
+					}
+
+					// Блокируем кнопку отправки
+					const submitBtn = form.querySelector('button[type="submit"]');
+					const originalText = submitBtn.innerHTML;
+					if (submitBtn) {
+						submitBtn.disabled = true;
+						submitBtn.innerHTML = 'Отправка...';
+					}
+
+					// Создаем FormData
+					const formData = new FormData(form);
+
+					// Отправляем форму
+					fetch('<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php', {
+						method: 'POST',
+						body: formData,
+					})
+						.then((response) => {
+							if (response.ok) {
+								// Перезагружаем страницу для показа сообщения
+								window.location.reload();
+							} else {
+								throw new Error('Ошибка сервера');
+							}
+						})
+						.catch((error) => {
+							console.error('Ошибка:', error);
+							alert('Произошла ошибка при отправке формы. Попробуйте еще раз.');
+						})
+						.finally(() => {
+							// Скрываем лоадер
+							if (loader) {
+								loader.style.display = 'none';
+							}
+
+							// Разблокируем кнопку
+							if (submitBtn) {
+								submitBtn.disabled = false;
+								submitBtn.innerHTML = originalText;
+							}
+						});
+				});
 			});
 		</script>
 	</main>
@@ -3058,8 +3083,8 @@ if (isset($_SESSION['win'])) {
 				<div class="modal-body">
 					<h2>Мы Вам перезвоним</h2>
 
-					<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php"
-						id="feedback-modal-form" method="post" name="feedback" class="form">
+					<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php" id="feedback-modal-form"
+						method="post" name="feedback" class="form">
 						<div class="loader-box"><span class="loader"></span></div>
 
 						<input type="hidden" name="form-source" value="modal-callback" id="modal-form-source">
@@ -3350,7 +3375,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 
 				document.getElementById('btnIco').style.backgroundImage =
-					'url("//oknamobifon.ru/wp-content/themes/oknamobifon/promo/css/../img/icons/callback-button-close.png")';
+					'url(https://site100ru.github.io/oknamobifon-html/promo/img/icons/callback-button-close.png)';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3380,7 +3405,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.webkitTransform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.backgroundImage =
-					'url("//oknamobifon.ru/wp-content/themes/oknamobifon/promo/css/../img/icons/callback-button-close.png")';
+					'url(https://site100ru.github.io/oknamobifon-html/promo/img/icons/callback-button-ico.png)';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3403,15 +3428,98 @@ if (isset($_SESSION['win'])) {
 	</script>
 	<!-- /Callback button JS -->
 
-	<script src="<?php echo get_template_directory_uri(); ?>/promo/js/quize.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/quize.js"></script>
 
-	<!-- <script src="assets/js/Accordion.js"></script>-->
-	<!-- 
-	<script type="text/javascript"
-		src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
-		id="OknaMobifon-script-js" defer="defer" data-wp-strategy="defer"></script> -->
+	<!-- <script src="assets/js/Accordion.js"></script>
 
+		<script
+			type="text/javascript"
+			src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
+			id="OknaMobifon-script-js"
+			defer="defer"
+			data-wp-strategy="defer"
+		></script> -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+
+
+	<script>
+		// Функция для закрытия сообщения
+		function f1() {
+			const backgroundMsg = document.getElementById('background-msg');
+			const messageContainer = backgroundMsg ? backgroundMsg.parentElement : null;
+
+			if (messageContainer) {
+				messageContainer.style.display = 'none';
+			}
+		}
+
+		// Автоматически закрываем сообщение через 10 секунд
+		document.addEventListener('DOMContentLoaded', function () {
+			const messageContainer = document.querySelector('div[onclick="f1();"]');
+			if (messageContainer && messageContainer.style.display === 'block') {
+				setTimeout(function () {
+					f1();
+				}, 10000); // 10 секунд
+			}
+		});
+
+		document.addEventListener('DOMContentLoaded', function () {
+			// Массив всех полей телефонов
+			const phoneInputs = [
+				'feedback-modal-phone',
+				'feedback-callback-phone',
+				'feedback-consultation-phone',
+				'feedback-phone4',
+				'feedback-phone',
+				'feedback-estimate-phone'
+			];
+
+			phoneInputs.forEach(function (inputId) {
+				const phoneInput = document.getElementById(inputId);
+				if (phoneInput) {
+					setupPhoneMask(phoneInput);
+				}
+			});
+
+			function setupPhoneMask(phoneInput) {
+				phoneInput.addEventListener('input', function (e) {
+					let value = e.target.value.replace(/\D/g, '');
+
+					if (value.length > 0) {
+						if (value[0] === '8') {
+							value = '8' + value.substring(1);
+						} else if (value[0] === '7') {
+							value = '+7' + value.substring(1);
+						} else if (value.length >= 10) {
+							value = '+7' + value;
+						}
+
+						if (value.startsWith('+7') && value.length >= 5) {
+							value = value.replace(
+								/(\+7)(\d{3})(\d{3})(\d{2})(\d{2})/,
+								'$1 ($2) $3-$4-$5',
+							);
+						} else if (value.startsWith('8') && value.length >= 4) {
+							value = value.replace(
+								/8(\d{3})(\d{3})(\d{2})(\d{2})/,
+								'8 ($1) $2-$3-$4',
+							);
+						}
+					}
+					e.target.value = value;
+				});
+
+				phoneInput.addEventListener('focus', function (e) {
+					if (e.target.value === '') {
+						e.target.value = '+7 (';
+					}
+				});
+			}
+		});
+	</script>
 
 	<!-- Показываем сообщение об успешной отправки -->
 	<div style="display: <?php echo $display; ?>;" onclick="f1();">
@@ -3487,7 +3595,7 @@ if (isset($_SESSION['win'])) {
 		});
 	</script>
 
-	<script>
+		<script>
 
 		document.addEventListener('DOMContentLoaded', function () {
 			import('https://cdn.jsdelivr.net/npm/photoswipe@5.4.2/dist/photoswipe.esm.min.js')
@@ -3693,6 +3801,47 @@ if (isset($_SESSION['win'])) {
 		});
 	</script>
 
+	<script>
+		function i(t) {
+    const e = t.target;
+    let i = e.value.replace(/(?!^\+)\D/g, "")
+      , s = "+7";
+    0 === i.length && (s = ""),
+    i.startsWith("+") && (1 === i.length ? (i = i.slice(1),
+    s = "+") : (i = i.startsWith("+7") ? i.slice(2) : i.slice(1),
+    s = "+7")),
+    i.startsWith("7") && (i = i.slice(1)),
+    i.startsWith("8") && (i = i.slice(1),
+    s = "8"),
+    i.length > 0 && (s += " (" + i.substring(0, 3)),
+    i.length >= 4 && (s += ") " + i.substring(3, 6)),
+    i.length >= 7 && (s += "-" + i.substring(6, 8)),
+    i.length >= 9 && (s += "-" + i.substring(8, 10)),
+    e.value = s.trim(),
+    18 === e.value.length || s.startsWith("8") && 17 === e.value.length ? t.target.classList.add("is-valid") : t.target.classList.remove("is-valid")
+}
+document.querySelectorAll("[type='tel']").forEach((t => {
+    t.addEventListener("input", i)
+}))
+document.querySelectorAll("[required]").forEach((t => {
+    t.addEventListener("invalid", (function(t) {
+        t.preventDefault(),
+        t.target.classList.add("is-invalid"),
+        t.target.classList.remove("is-valid"),
+        console.log(t.target.validationMessage)
+    })),
+    t.addEventListener("valid", (function(t) {
+        t.preventDefault(),
+        console.log(111)
+    })),
+    t.addEventListener("input", (function(t) {
+        t.preventDefault(),
+        console.log(t.target.checkValidity()),
+        t.target.checkValidity() && (t.target.classList.add("is-valid"),
+        t.target.classList.remove("is-invalid"))
+    }))
+}))
+	</script>
 </body>
 
 </html>
