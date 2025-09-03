@@ -70,7 +70,7 @@ if (isset($_SESSION['win'])) {
 			margin-top: 20px;
 		}
 	</style>
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/stocks.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/promo/css/stocks.css" type="text/css" />
 </head>
 
 <body
@@ -2187,7 +2187,7 @@ if (isset($_SESSION['win'])) {
 					<div class="col-lg-8">
 						<div class="section-reputation__item">
 							<div class="section-reputation__item-mark">
-								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icon-yandex-map.svg"
+								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-yandex-map.svg"
 									alt="Яндекс Карты" />
 								5.0
 							</div>
@@ -2203,7 +2203,7 @@ if (isset($_SESSION['win'])) {
 					<div class="col-lg-8">
 						<div class="section-reputation__item">
 							<div class="section-reputation__item-mark">
-								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icon-2gis.svg" alt="2ГИС" />
+								<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-2gis.svg" alt="2ГИС" />
 								5
 							</div>
 							<div class="section-reputation__item-stars">
@@ -2221,67 +2221,67 @@ if (isset($_SESSION['win'])) {
 						<div class="carousel">
 							<div class="carousel__track">
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/samolet.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
 										alt="Самолет" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/a101.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
 										alt="А101" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/pervyj-kanal.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
 										alt="Первый канал" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mgts.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
 										alt="МГТС" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mvideo.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
 										alt="М.Видео" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/gloriya.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
 										alt="Gloria Jeans" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/kfc.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
 										alt="KFC" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/aeroflot.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
 										alt="Аэрофлот" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/samolet.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
 										alt="Самолет" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/a101.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
 										alt="А101" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/pervyj-kanal.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
 										alt="Первый канал" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mgts.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
 										alt="МГТС" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/mvideo.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
 										alt="М.Видео" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/gloriya.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
 										alt="Gloria Jeans" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/kfc.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
 										alt="KFC" />
 								</div>
 								<div class="brand-logo">
-									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/clients/aeroflot.png"
+									<img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
 										alt="Аэрофлот" />
 								</div>
 							</div>
@@ -3375,7 +3375,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 
 				document.getElementById('btnIco').style.backgroundImage =
-					'url(https://site100ru.github.io/oknamobifon-html/promo/img/icons/callback-button-close.png)';
+					'url(https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icons/callback-button-close.png)';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3405,7 +3405,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.webkitTransform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.backgroundImage =
-					'url(https://site100ru.github.io/oknamobifon-html/promo/img/icons/callback-button-ico.png)';
+					'url(https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icons/callback-button-ico.png)';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3428,7 +3428,7 @@ if (isset($_SESSION['win'])) {
 	</script>
 	<!-- /Callback button JS -->
 
-	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/quize.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/promo/js/quize.js"></script>
 
 	<!-- <script src="assets/js/Accordion.js"></script>
 
