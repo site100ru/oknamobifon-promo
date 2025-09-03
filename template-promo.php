@@ -2388,15 +2388,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/dd9fda5d2b702091455f0b8181e01e19-1.jpg         427w
 								" sizes="(max-width: 200px) 100vw, 200px" />
 					</a>
-					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241.jpg"
-						target="_blank" data-pswp-width="361" data-pswp-height="480" class="gallery-grid__item">
-						<img width="226" height="300"
-							src="https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241-226x300.jpg"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" srcset="
-									https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241-226x300.jpg 226w,
-									https://oknamobifon.ru/wp-content/uploads/2025/03/66ffb687fe97500cf9849f7ca7a3b241.jpg         361w
-								" sizes="(max-width: 226px) 100vw, 226px" />
-					</a>
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/6bbff4e5b4214357a1a1c73cf176c8db.jpg"
 						target="_blank" data-pswp-width="360" data-pswp-height="480" class="gallery-grid__item">
 						<img width="225" height="300"
