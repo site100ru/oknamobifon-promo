@@ -2304,7 +2304,7 @@ if (isset($_SESSION['win'])) {
 							Более 25 лет успешного опыта. Сотни реализованных объектов.
 						</p>
 					</div>
-					<a href="https://oknamobifon.ru/works/c/moskitnye-setki/" class="btn btn-outline-primary">Смотреть все ↗</a>
+					<a href="https://oknamobifon.ru/works" class="btn btn-outline-primary">Смотреть все ↗</a>
 				</header>
 				<div class="gallery-grid">
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/6edfd7ad2e8af1521aa9d3b9ede59055.jpg"
