@@ -2344,46 +2344,53 @@ if (isset($_SESSION['win'])) {
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
 
@@ -2449,6 +2456,12 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/3073c5f3c68e3798a074d14757122b63-1-225x300.jpg 225w,
 									https://oknamobifon.ru/wp-content/uploads/2025/03/3073c5f3c68e3798a074d14757122b63-1.jpg         360w
 								" sizes="(max-width: 225px) 100vw, 225px" />
+					</a>
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/81e44aafbf3ef9de1406be8c57b2e8b8.jpg"
 						target="_blank" data-pswp-width="488" data-pswp-height="640" class="gallery-grid__item">
@@ -2605,34 +2618,39 @@ if (isset($_SESSION['win'])) {
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
 
@@ -2674,29 +2692,33 @@ if (isset($_SESSION['win'])) {
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/07f520f75d445b9b1e984febd561186a-1.jpg"
@@ -2755,35 +2777,35 @@ if (isset($_SESSION['win'])) {
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
+					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp" target="_blank"
+						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
+						<img width="300" height="200"
+							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
-						class="gallery-grid__item">
-						<img width="300" height="200" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp" class="attachment-medium size-medium" alt=""
-							loading="lazy" decoding="async" />
-					</a>
+					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7.jpg" target="_blank" data-pswp-width="640" data-pswp-height="478" class="gallery-grid__item"> <img width="300" height="224" src="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7-300x224.jpg" class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7-300x224.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7.jpg 640w" sizes="(max-width: 300px) 100vw, 300px"> </a>
 				</div>
 
 				<footer class="section__header" style="margin-top: 40px; margin-bottom: 0;">
@@ -3591,60 +3613,6 @@ if (isset($_SESSION['win'])) {
 				setTimeout(function () {
 					f1();
 				}, 10000); // 10 секунд
-			}
-		});
-
-		document.addEventListener('DOMContentLoaded', function () {
-			// Массив всех полей телефонов
-			const phoneInputs = [
-				'feedback-modal-phone',
-				'feedback-callback-phone',
-				'feedback-consultation-phone',
-				'feedback-phone4',
-				'feedback-phone',
-				'feedback-estimate-phone'
-			];
-
-			phoneInputs.forEach(function (inputId) {
-				const phoneInput = document.getElementById(inputId);
-				if (phoneInput) {
-					setupPhoneMask(phoneInput);
-				}
-			});
-
-			function setupPhoneMask(phoneInput) {
-				phoneInput.addEventListener('input', function (e) {
-					let value = e.target.value.replace(/\D/g, '');
-
-					if (value.length > 0) {
-						if (value[0] === '8') {
-							value = '8' + value.substring(1);
-						} else if (value[0] === '7') {
-							value = '+7' + value.substring(1);
-						} else if (value.length >= 10) {
-							value = '+7' + value;
-						}
-
-						if (value.startsWith('+7') && value.length >= 5) {
-							value = value.replace(
-								/(\+7)(\d{3})(\d{3})(\d{2})(\d{2})/,
-								'$1 ($2) $3-$4-$5',
-							);
-						} else if (value.startsWith('8') && value.length >= 4) {
-							value = value.replace(
-								/8(\d{3})(\d{3})(\d{2})(\d{2})/,
-								'8 ($1) $2-$3-$4',
-							);
-						}
-					}
-					e.target.value = value;
-				});
-
-				phoneInput.addEventListener('focus', function (e) {
-					if (e.target.value === '') {
-						e.target.value = '+7 (';
-					}
-				});
 			}
 		});
 	</script>
