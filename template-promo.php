@@ -2786,7 +2786,7 @@ if (isset($_SESSION['win'])) {
 					</a>
 				</div>
 
-				<footer class="section__header" style="margin-top: 20px">
+				<footer class="section__header" style="margin-top: 40px; margin-bottom: 0;">
 					<a href="https://oknamobifon.ru/works" class="btn btn-outline-primary">Смотреть все ↗</a>
 				</footer>
 			</div>
