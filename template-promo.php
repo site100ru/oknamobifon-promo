@@ -206,6 +206,7 @@ if (isset($_SESSION['win'])) {
 						</h1>
 						<ul class="section-hero__promo fade-in-right mb-0" style="--delay: 0.5s">
 							<li>Замер и расчет стоимости бесплатно</li>
+							<li>Беспроцентная рассрочка на 12 месяцев</li>
 							<li>Изготовление 5-7 рабочих дней</li>
 							<li>Бесплатная доставка и установка в один день</li>
 							<li>Гарантия на установку 5 лет, на профиль 25 лет</li>
@@ -447,8 +448,8 @@ if (isset($_SESSION['win'])) {
 								alt="rehau" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Rehau</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
-									class="mb-2 img-fluid" alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+									alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>9&nbsp;940</span> руб/м<sup>2</sup>
@@ -467,8 +468,8 @@ if (isset($_SESSION['win'])) {
 								alt="KBE" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">KBE</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
-									class="mb-2 img-fluid" alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+									alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>9&nbsp;040</span> руб/м<sup>2</sup>
@@ -487,8 +488,8 @@ if (isset($_SESSION['win'])) {
 								alt="Novotex" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Novotex</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
-									class="mb-2 img-fluid" alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+									alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>8&nbsp;240</span> руб/м<sup>2</sup>
@@ -507,8 +508,8 @@ if (isset($_SESSION['win'])) {
 								alt="Provedal" />
 							<div class="card-body text-center px-0">
 								<h5 class="card-title">Provedal</h5>
-								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg"
-									class="mb-2 img-fluid" alt="5 звезд" />
+								<img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+									alt="5 звезд" />
 
 								<p class="card-text card-price">
 									От <span>6&nbsp;040</span> руб/м<sup>2</sup>
@@ -596,7 +597,7 @@ if (isset($_SESSION['win'])) {
 				<div class="row justify-content-center" style="margin-top: 30px">
 					<div class="col-md-12 col-lg-10 col-xl-8 text-center mb-5 mb-lg-0">
 						<h5 class="mb-3 section-windows-title">
-							Лоджия <span>«Прямой»</span> 3х1,5
+							Лоджия <span>«Прямая»</span> 3х1,5
 						</h5>
 						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-1.png"
 							class="mb-3 img-fluid w-100 card-windows" alt="Окно с 2 створками" />
@@ -2304,7 +2305,6 @@ if (isset($_SESSION['win'])) {
 							Более 25 лет успешного опыта. Сотни реализованных объектов.
 						</p>
 					</div>
-					<a href="https://oknamobifon.ru/works" class="btn btn-outline-primary">Смотреть все ↗</a>
 				</header>
 				<div class="gallery-grid">
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/6edfd7ad2e8af1521aa9d3b9ede59055.jpg"
@@ -2343,6 +2343,50 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/19a8430eb3d2e7c06ae44a4eb29bce1d.jpg         640w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
+
+					<a href="img/jobs/2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/6.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/6.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/7.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/7.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/8.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/8.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/9.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/9.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/13.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/13.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/12.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/12.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/248510e96d7b27736dfe9e3fdb80c910-2.jpg"
 						target="_blank" data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
 						<img width="300" height="200"
@@ -2560,6 +2604,39 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ad9a8374537a5b8c9919e205b48c225f.jpg         480w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
+
+					<a href="img/jobs/2-1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2-1.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/2-2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2-2.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/2-4.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2-4.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/2-5.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2-5.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/10.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/10.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+
+
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/91f504cc23c1648a71bdf812e0313c0c.jpg"
 						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
 						<img width="300" height="225"
@@ -2596,6 +2673,32 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ea51276f2b5d16e9fca642cc6e12bf5b.jpg         480w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
+
+					<a href="img/jobs/3-1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/3-1.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/3-2.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/3-2.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+
+					<a href="img/jobs/3-3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/3-3.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/2-3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/2-3.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/07f520f75d445b9b1e984febd561186a-1.jpg"
 						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
 						<img width="300" height="225"
@@ -2651,7 +2754,41 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ddf73e20fe44dea2cda5fd73c87ee1f0.jpg         412w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
+
+					<a href="img/jobs/4.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/4.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/1.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/1.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/3.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/3.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/5.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/5.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
+
+					<a href="img/jobs/11.webp" target="_blank" data-pswp-width="640" data-pswp-height="427"
+						class="gallery-grid__item">
+						<img width="300" height="200" src="img/jobs/11.webp" class="attachment-medium size-medium" alt=""
+							loading="lazy" decoding="async" />
+					</a>
 				</div>
+
+				<footer class="section__header" style="m">
+					<a href="https://oknamobifon.ru/works" class="btn btn-outline-primary">Смотреть все ↗</a>
+				</footer>
 			</div>
 		</section>
 
@@ -2844,8 +2981,8 @@ if (isset($_SESSION['win'])) {
 								<p class="section__subtitle">
 									Получите бесплатную консультацию у нашиx специалистов
 								</p>
-								<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php" id="footer-callback"
-									method="post" name="feedback" class="form" style="max-width: 600px">
+								<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php"
+									id="footer-callback" method="post" name="feedback" class="form" style="max-width: 600px">
 									<div class="loader-box"><span class="loader"></span></div>
 
 									<input type="hidden" name="form-source" value="footer-callback">
@@ -3074,8 +3211,8 @@ if (isset($_SESSION['win'])) {
 				<div class="modal-body">
 					<h2>Мы Вам перезвоним</h2>
 
-					<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php" id="feedback-modal-form"
-						method="post" name="feedback" class="form">
+					<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php"
+						id="feedback-modal-form" method="post" name="feedback" class="form">
 						<div class="loader-box"><span class="loader"></span></div>
 
 						<input type="hidden" name="form-source" value="modal-callback" id="modal-form-source">
@@ -3586,7 +3723,7 @@ if (isset($_SESSION['win'])) {
 		});
 	</script>
 
-		<script>
+	<script>
 
 		document.addEventListener('DOMContentLoaded', function () {
 			import('https://cdn.jsdelivr.net/npm/photoswipe@5.4.2/dist/photoswipe.esm.min.js')
@@ -3794,44 +3931,44 @@ if (isset($_SESSION['win'])) {
 
 	<script>
 		function i(t) {
-    const e = t.target;
-    let i = e.value.replace(/(?!^\+)\D/g, "")
-      , s = "+7";
-    0 === i.length && (s = ""),
-    i.startsWith("+") && (1 === i.length ? (i = i.slice(1),
-    s = "+") : (i = i.startsWith("+7") ? i.slice(2) : i.slice(1),
-    s = "+7")),
-    i.startsWith("7") && (i = i.slice(1)),
-    i.startsWith("8") && (i = i.slice(1),
-    s = "8"),
-    i.length > 0 && (s += " (" + i.substring(0, 3)),
-    i.length >= 4 && (s += ") " + i.substring(3, 6)),
-    i.length >= 7 && (s += "-" + i.substring(6, 8)),
-    i.length >= 9 && (s += "-" + i.substring(8, 10)),
-    e.value = s.trim(),
-    18 === e.value.length || s.startsWith("8") && 17 === e.value.length ? t.target.classList.add("is-valid") : t.target.classList.remove("is-valid")
-}
-document.querySelectorAll("[type='tel']").forEach((t => {
-    t.addEventListener("input", i)
-}))
-document.querySelectorAll("[required]").forEach((t => {
-    t.addEventListener("invalid", (function(t) {
-        t.preventDefault(),
-        t.target.classList.add("is-invalid"),
-        t.target.classList.remove("is-valid"),
-        console.log(t.target.validationMessage)
-    })),
-    t.addEventListener("valid", (function(t) {
-        t.preventDefault(),
-        console.log(111)
-    })),
-    t.addEventListener("input", (function(t) {
-        t.preventDefault(),
-        console.log(t.target.checkValidity()),
-        t.target.checkValidity() && (t.target.classList.add("is-valid"),
-        t.target.classList.remove("is-invalid"))
-    }))
-}))
+			const e = t.target;
+			let i = e.value.replace(/(?!^\+)\D/g, "")
+				, s = "+7";
+			0 === i.length && (s = ""),
+				i.startsWith("+") && (1 === i.length ? (i = i.slice(1),
+					s = "+") : (i = i.startsWith("+7") ? i.slice(2) : i.slice(1),
+						s = "+7")),
+				i.startsWith("7") && (i = i.slice(1)),
+				i.startsWith("8") && (i = i.slice(1),
+					s = "8"),
+				i.length > 0 && (s += " (" + i.substring(0, 3)),
+				i.length >= 4 && (s += ") " + i.substring(3, 6)),
+				i.length >= 7 && (s += "-" + i.substring(6, 8)),
+				i.length >= 9 && (s += "-" + i.substring(8, 10)),
+				e.value = s.trim(),
+				18 === e.value.length || s.startsWith("8") && 17 === e.value.length ? t.target.classList.add("is-valid") : t.target.classList.remove("is-valid")
+		}
+		document.querySelectorAll("[type='tel']").forEach((t => {
+			t.addEventListener("input", i)
+		}))
+		document.querySelectorAll("[required]").forEach((t => {
+			t.addEventListener("invalid", (function (t) {
+				t.preventDefault(),
+					t.target.classList.add("is-invalid"),
+					t.target.classList.remove("is-valid"),
+					console.log(t.target.validationMessage)
+			})),
+				t.addEventListener("valid", (function (t) {
+					t.preventDefault(),
+						console.log(111)
+				})),
+				t.addEventListener("input", (function (t) {
+					t.preventDefault(),
+						console.log(t.target.checkValidity()),
+						t.target.checkValidity() && (t.target.classList.add("is-valid"),
+							t.target.classList.remove("is-invalid"))
+				}))
+		}))
 	</script>
 </body>
 
