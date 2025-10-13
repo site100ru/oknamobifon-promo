@@ -129,7 +129,7 @@ if ($_POST) {
     }
 
     // Email настройки
-    $to = "sidorov-vv3@mail.ru, vasilyev-r@mail.ru";
+    $to = "amironov@oknamobifon.ru, vasilyev-r@mail.ru";
     $headers = "From: noreply@" . $_SERVER['HTTP_HOST'] . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
