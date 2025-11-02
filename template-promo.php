@@ -445,6 +445,9 @@ if (isset($_SESSION['win'])) {
 			</div>
 		</section>
 
+		
+		
+		<!-- Варианты профилей -->
 		<section class="section section-profile bg-light">
 			<div class="container pb-3 pb-md-0">
 				<h2 class="section__title section-uso__title">
@@ -467,7 +470,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>9&nbsp;940</span> руб/м<sup>2</sup>
+									От <span>8&nbsp;090</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-rehau" aria-label="Подробная консультация" data-profile="Rehau">
@@ -487,7 +490,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>9&nbsp;040</span> руб/м<sup>2</sup>
+									От <span>7&nbsp;790</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-kbe" aria-label="Подробная консультация" data-profile="KBE">
@@ -507,7 +510,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>8&nbsp;240</span> руб/м<sup>2</sup>
+									От <span>7&nbsp;190</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-novotex" aria-label="Подробная консультация" data-profile="Novotex">
@@ -527,7 +530,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>6&nbsp;040</span> руб/м<sup>2</sup>
+									От <span>5&nbsp;990</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-provedal" aria-label="Подробная консультация" data-profile="Provedal">
