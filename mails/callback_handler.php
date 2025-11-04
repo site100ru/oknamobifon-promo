@@ -28,7 +28,15 @@ if ($_POST) {
         'consultation' => 'Быстрая консультация',
         'footer-callback' => 'Заявка на звонок (футер)',
         'estimate-upload' => 'Пересчет сметы конкурентов',
-        'unknown' => 'Заявка с сайта'
+        'unknown' => 'Заявка с сайта',
+        'child-lock' => 'Детский замок',
+        'anti-burglary-hardware' => 'Противовзломная фурнитура',
+        'step-ventilation' => 'Ступенчатое проветривание',
+        'hidden-hinges' => 'Скрытые петли',
+        'window-sills' => 'Подоконники для окон',
+        'slope-finishing' => 'Отделка откосов',
+        'glass-unit-replacement' => 'Замена стеклопакета',
+        'remote-ventilation' => 'Дистанционное проветривание'       
     ];
 
     // Расшифровка контекста кнопок
@@ -129,7 +137,7 @@ if ($_POST) {
     }
 
     // Email настройки
-    $to = "amironov@oknamobifon.ru, yvolkova@oknamobifon.ru, vasilyev-r@mail.ru";
+    $to = "sidorov-vv3@mail.ru, vasilyev-r@mail.ru";
     $headers = "From: noreply@" . $_SERVER['HTTP_HOST'] . "\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 

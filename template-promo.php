@@ -28,7 +28,28 @@ if (isset($_SESSION['win'])) {
 		href="/wp-content/themes/oknamobifon/assets/favicon/apple-touch-icon.png" />
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 	<!-- This site is optimized with the Yoast SEO plugin v25.2 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Входные двери. Изготовление и монтаж деревянных и пластиковых окон в Москве</title>
+	<title>Акции на окна ПВХ - скидки на остекление в Москве | ОкнаМобифон</title>
+	<meta name="description"
+		content="Выгодные акции на пластиковые окна ПВХ, остекление балконов и лоджий. Скидки, рассрочка без процентов. Качественная установка с гарантией. Звоните: +7 (495) 646-49-59" />
+
+	<meta name="keywords"
+		content="акции на окна, скидки на окна пвх, акции остекление балконов, окна со скидкой москва, рассрочка на окна, выгодные предложения окна" />
+
+	<link rel="canonical" href="https://oknamobifon.ru/promo-okna/" />
+
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Акции на окна ПВХ - скидки на остекление в Москве">
+	<meta property="og:description"
+		content="Выгодные акции на пластиковые окна ПВХ, остекление балконов и лоджий. Скидки, рассрочка без процентов. Качественная установка с гарантией 5 лет.">
+	<meta property="og:url" content="https://www.oknamobifon.ru/promo-okna/">
+	<meta property="og:site_name" content="ОкнаМобифон">
+	<meta property="article:modified_time" content="2025-06-04T19:40:22+00:00">
+	<meta property="og:image" content="https://www.oknamobifon.ru/wp-content/uploads/2025/05/woman.jpg">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="768">
+	<meta property="og:image:type" content="image/jpeg">
+
 	<!-- <link
 			rel="stylesheet"
 			id="wp-block-library-css"
@@ -59,21 +80,6 @@ if (isset($_SESSION['win'])) {
 		</div>
 	</noscript>
 	<!-- /Yandex.Metrika counter -->
-	
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function(m,e,t,r,i,k,a){
-			m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-			m[i].l=1*new Date();
-			for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-			k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-		})(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104613973', 'ym');
-
-		ym(104613973, 'init', {ssr:true, webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/104613973" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-
 	<style>
 		.gallery-grid__item img,
 		.gallery__item img {
@@ -221,7 +227,6 @@ if (isset($_SESSION['win'])) {
 						</h1>
 						<ul class="section-hero__promo fade-in-right mb-0" style="--delay: 0.5s">
 							<li>Замер и расчет стоимости бесплатно</li>
-							<li>Беспроцентная рассрочка на 12 месяцев</li>
 							<li>Изготовление 5-7 рабочих дней</li>
 							<li>Бесплатная доставка и установка в один день</li>
 							<li>Гарантия на установку 5 лет, на профиль 25 лет</li>
@@ -445,9 +450,6 @@ if (isset($_SESSION['win'])) {
 			</div>
 		</section>
 
-		
-		
-		<!-- Варианты профилей -->
 		<section class="section section-profile bg-light">
 			<div class="container pb-3 pb-md-0">
 				<h2 class="section__title section-uso__title">
@@ -470,7 +472,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>8&nbsp;090</span> руб/м<sup>2</sup>
+									От <span>9&nbsp;940</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-rehau" aria-label="Подробная консультация" data-profile="Rehau">
@@ -490,7 +492,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>7&nbsp;790</span> руб/м<sup>2</sup>
+									От <span>9&nbsp;040</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-kbe" aria-label="Подробная консультация" data-profile="KBE">
@@ -510,7 +512,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>7&nbsp;190</span> руб/м<sup>2</sup>
+									От <span>8&nbsp;240</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-novotex" aria-label="Подробная консультация" data-profile="Novotex">
@@ -530,7 +532,7 @@ if (isset($_SESSION['win'])) {
 									alt="5 звезд" />
 
 								<p class="card-text card-price">
-									От <span>5&nbsp;990</span> руб/м<sup>2</sup>
+									От <span>6&nbsp;040</span> руб/м<sup>2</sup>
 								</p>
 								<button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal"
 									data-context="calculate-cost-provedal" aria-label="Подробная консультация" data-profile="Provedal">
@@ -615,7 +617,7 @@ if (isset($_SESSION['win'])) {
 				<div class="row justify-content-center" style="margin-top: 30px">
 					<div class="col-md-12 col-lg-10 col-xl-8 text-center mb-5 mb-lg-0">
 						<h5 class="mb-3 section-windows-title">
-							Лоджия <span>«Прямая»</span> 3х1,5
+							Лоджия <span>«Прямой»</span> 3х1,5
 						</h5>
 						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-1.png"
 							class="mb-3 img-fluid w-100 card-windows" alt="Окно с 2 створками" />
@@ -1853,30 +1855,7 @@ if (isset($_SESSION['win'])) {
 			</div>
 		</section>
 
-		
-		<!-- Actions section -->
-		<section id="stocks" class="archive-portfolio-section archive-portfolio bg-white pb-5">
-			<div class="container">
-				<h2 class="section__title section-uso__title">Наши <span>акции</span></h2>
-
-				<div class="row">
-					<div class="col-md-8">
-						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-4.webp"
-							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Для тех кто ценит качество, фурнитура Roto в наличии" />
-					</div>
-					<div class="col-md-8">
-						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-5.webp"
-							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Сезонное снижение цен -40%, самое время заказать остекление" />
-					</div>
-					<div class="col-md-8">
-						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-3.jpg"
-							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Рассрочка на 1 год до 30 сентября" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="section section-promo-products section-quality bg-light">
+        <section class="section section-promo-products section-quality bg-white pb-5">
 			<div class="container">
 				<h2 class="section__title section-uso__title">Установка <span>окон</span></h2>
 				<p class="section__subtitle section-products__subtitle mb-5"
@@ -1953,6 +1932,263 @@ if (isset($_SESSION['win'])) {
 				</div>
 			</div>
 		</section>
+
+		<section id="stocks" class="archive-portfolio-section archive-portfolio bg-light py-5">
+			<div class="container">
+				<h2 class="section__title section-uso__title">Акции и скидки <span>от нашей компании</span></h2>
+
+				<div class="row">
+					<div class="col-md-8">
+						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-1.jpg"
+							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Скидки до 25% до 31 августа" />
+					</div>
+					<div class="col-md-8">
+						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-2.jpg"
+							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Скидки до 50% до 31 декабря" />
+					</div>
+					<div class="col-md-8">
+						<img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-3.jpg"
+							class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Рассрочка на 1 год до 30 сентября" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <section class="section section-how bg-grey py-5">
+            <div class="container">
+                <h2 class="section__title section-uso__title">Как мы <span>работаем</span></h2>
+
+                <div class="row mx-auto">
+                    <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/1.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-1.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Свяжитесь с нами любым удобным для Вас способом или оставьте заявку на сайте.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/2.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-2.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Рассчитаем предварительную стоимость за 15 минут.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/3.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-3.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Если цена устраивает, то <b>бесплатно</b> приезжает замерщик для составления точной сметы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/4.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-4.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Если все устраивает, то заключаем договор.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/5.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-5.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Изготовляем окна от 7&nbsp;дней!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-4 mb-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 text-center">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/6.svg" alt="Шаг" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-6.svg" alt="Процесс" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col text-start">
+                                <p class="mb-0" >Доставляем и устанавливаем <b>одним&nbsp;днем!</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-how bg-light  py-5">
+            <div class="container">
+                <header class="section__header">
+					<div>
+						<h2 class="section__title section-uso__title">
+							Сделайте свои окна 
+							<span>еще лучше!</span>
+						</h2>
+
+						<p class="section__subtitle">
+							Используйте возможности окна по полной — дополните его удобным функционалом!
+						</p>
+					</div>
+				</header>
+
+                <div class="d-flex flex-wrap row">
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="child-lock" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-8.jpg"
+                                    alt="Детский замок" class="card-image">
+                                <div class="image-text">Детский замок</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Безопасность Ваших детей у окна.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="anti-burglary-hardware" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-7.jpg"
+                                    alt="Противовзломная фурнитура" class="card-image">
+                                <div class="image-text">Противовзломная фурнитура</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Защитит от проникновения злоумышленников.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="step-ventilation" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-6.jpg"
+                                    alt="Ступенчатое проветривание" class="card-image">
+                                <div class="image-text">Ступенчатое проветривание</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Регулировка уровня проветривания до комфортного.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="hidden-hinges" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-5.jpg"
+                                    alt="Скрытые петли" class="card-image">
+                                <div class="image-text">Скрытые петли</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Придают окну более эстетичный вид.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button  data-button-context="window-sills" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-4.jpg"
+                                    alt="Подоконники для окон" class="card-image">
+                                <div class="image-text">Подоконники для окон</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Дополнительное удобство и возможность полноценно использовать каждый сантиметр пространства.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="slope-finishing" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-3.jpg"
+                                    alt="Отделка откосов" class="card-image">
+                                <div class="image-text">Отделка откосов</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Утеплённые откосы из сандвич-панелей — красивый и стильный вид окна.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button  data-button-context="glass-unit-replacement" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-2.jpg"
+                                    alt="Замена стеклопакета" class="card-image">
+                                <div class="image-text">Замена стеклопакета</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Повышенные свойства тепло и звуко изоляции Ваших окон.</p>
+                                <div class="btn btn-primary btn-cta">Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-sm-12 col-xl-6 mb-4">
+                        <button data-button-context="remote-ventilation" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
+                            <div class="image-wrapper">
+                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-1.jpg"
+                                    alt="Дистанционное проветривание" class="card-image">
+                                <div class="image-text">Дистанционное проветривание</div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-description">Открытие окна не только механически, но и за счёт радиоуправления.</p>
+                                <div class="btn btn-primary btn-cta"  >Оставить заявку </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <p class="section__subtitle mb-0"><b>Не нашли нужной функции?</b></p>
+                    <p class="section__subtitle mb-0">Оставьте заявку, мы обязательно Вам поможем!</p>
+                    <div class="section-hero__cta fade-in-right">
+                        <button class="btn btn-primary btn-cta" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" data-context="hero-section-request">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
 		<section class="section section-cta">
 			<div class="container">
@@ -2325,6 +2561,7 @@ if (isset($_SESSION['win'])) {
 							Более 25 лет успешного опыта. Сотни реализованных объектов.
 						</p>
 					</div>
+					<a href="https://oknamobifon.ru/works/c/moskitnye-setki/" class="btn btn-outline-primary">Смотреть все ↗</a>
 				</header>
 				<div class="gallery-grid">
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/6edfd7ad2e8af1521aa9d3b9ede59055.jpg"
@@ -2363,57 +2600,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/19a8430eb3d2e7c06ae44a4eb29bce1d.jpg         640w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/6.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/7.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/8.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/9.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/13.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/12.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/248510e96d7b27736dfe9e3fdb80c910-2.jpg"
 						target="_blank" data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
 						<img width="300" height="200"
@@ -2476,12 +2662,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/3073c5f3c68e3798a074d14757122b63-1-225x300.jpg 225w,
 									https://oknamobifon.ru/wp-content/uploads/2025/03/3073c5f3c68e3798a074d14757122b63-1.jpg         360w
 								" sizes="(max-width: 225px) 100vw, 225px" />
-					</a>
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/4.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
 					</a>
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/81e44aafbf3ef9de1406be8c57b2e8b8.jpg"
 						target="_blank" data-pswp-width="488" data-pswp-height="640" class="gallery-grid__item">
@@ -2637,44 +2817,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ad9a8374537a5b8c9919e205b48c225f.jpg         480w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-1.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-2.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-4.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-5.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/10.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-
-
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/91f504cc23c1648a71bdf812e0313c0c.jpg"
 						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
 						<img width="300" height="225"
@@ -2711,36 +2853,6 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ea51276f2b5d16e9fca642cc6e12bf5b.jpg         480w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-1.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-2.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3-3.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/2-3.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
 					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/07f520f75d445b9b1e984febd561186a-1.jpg"
 						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
 						<img width="300" height="225"
@@ -2796,41 +2908,21 @@ if (isset($_SESSION['win'])) {
 									https://oknamobifon.ru/wp-content/uploads/2025/03/ddf73e20fe44dea2cda5fd73c87ee1f0.jpg         412w
 								" sizes="(max-width: 300px) 100vw, 300px" />
 					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/1.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/3.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/5.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp" target="_blank"
-						data-pswp-width="640" data-pswp-height="427" class="gallery-grid__item">
-						<img width="300" height="200"
-							src="https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/jobs/11.webp"
-							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" />
-					</a>
-
-					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7.jpg" target="_blank" data-pswp-width="640" data-pswp-height="478" class="gallery-grid__item"> <img width="300" height="224" src="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7-300x224.jpg" class="attachment-medium size-medium" alt="" loading="lazy" decoding="async" srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7-300x224.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/10e0bb37ef1f244c36526811077a8ca7.jpg 640w" sizes="(max-width: 300px) 100vw, 300px"> </a>
+					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8.jpg"
+						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
+						<img width="300" height="225"
+							src="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8-300x225.jpg"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async"
+							srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8-300x225.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/05ea702bd87a631ffd67f744f1e968f8.jpg 480w"
+							sizes="(max-width: 300px) 100vw, 300px"> </a>
+					<a href="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6.jpg"
+						target="_blank" data-pswp-width="480" data-pswp-height="360" class="gallery-grid__item">
+						<img width="300" height="225"
+							src="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6-300x225.jpg"
+							class="attachment-medium size-medium" alt="" loading="lazy" decoding="async"
+							srcset="https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6-300x225.jpg 300w, https://oknamobifon.ru/wp-content/uploads/2025/03/47b7c2ff997fe6f04ea6d2fa8c5433a6.jpg 480w"
+							sizes="(max-width: 300px) 100vw, 300px"> </a>
 				</div>
-
-				<footer class="section__header" style="margin-top: 40px; margin-bottom: 0;">
-					<a href="https://oknamobifon.ru/works" class="btn btn-outline-primary">Смотреть все ↗</a>
-				</footer>
 			</div>
 		</section>
 
@@ -3024,7 +3116,7 @@ if (isset($_SESSION['win'])) {
 									Получите бесплатную консультацию у нашиx специалистов
 								</p>
 								<form action="<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php"
-									id="footer-callback" method="post" name="feedback" class="form" style="max-width: 600px">
+									id="callback" method="post" name="callback" class="form" style="max-width: 600px">
 									<div class="loader-box"><span class="loader"></span></div>
 
 									<input type="hidden" name="form-source" value="footer-callback">
@@ -3123,57 +3215,6 @@ if (isset($_SESSION['win'])) {
 						}
 					});
 				}
-
-				// Обработчик отправки формы
-				form.addEventListener('submit', function (e) {
-					e.preventDefault();
-
-					// Показываем лоадер
-					if (loader) {
-						loader.style.display = 'flex';
-					}
-
-					// Блокируем кнопку отправки
-					const submitBtn = form.querySelector('button[type="submit"]');
-					const originalText = submitBtn.innerHTML;
-					if (submitBtn) {
-						submitBtn.disabled = true;
-						submitBtn.innerHTML = 'Отправка...';
-					}
-
-					// Создаем FormData
-					const formData = new FormData(form);
-
-					// Отправляем форму
-					fetch('<?php echo get_template_directory_uri(); ?>/promo/mails/callback_handler.php', {
-						method: 'POST',
-						body: formData,
-					})
-						.then((response) => {
-							if (response.ok) {
-								// Перезагружаем страницу для показа сообщения
-								window.location.reload();
-							} else {
-								throw new Error('Ошибка сервера');
-							}
-						})
-						.catch((error) => {
-							console.error('Ошибка:', error);
-							alert('Произошла ошибка при отправке формы. Попробуйте еще раз.');
-						})
-						.finally(() => {
-							// Скрываем лоадер
-							if (loader) {
-								loader.style.display = 'none';
-							}
-
-							// Разблокируем кнопку
-							if (submitBtn) {
-								submitBtn.disabled = false;
-								submitBtn.innerHTML = originalText;
-							}
-						});
-				});
 			});
 		</script>
 	</main>
@@ -3545,7 +3586,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 
 				document.getElementById('btnIco').style.backgroundImage =
-					'url(https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icons/callback-button-close.png)';
+					'url("//oknamobifon.ru/wp-content/themes/oknamobifon/promo/css/../img/icons/callback-button-close.png")';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3575,7 +3616,7 @@ if (isset($_SESSION['win'])) {
 				document.getElementById('btnIco').style.transform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.webkitTransform = 'rotate(180deg)';
 				document.getElementById('btnIco').style.backgroundImage =
-					'url(https://oknamobifon.ru/wp-content/themes/oknamobifon/promo/img/icons/callback-button-ico.png)';
+					'url("//oknamobifon.ru/wp-content/themes/oknamobifon/promo/css/../img/icons/callback-button-close.png")';
 				document.getElementById('btnIco').style.backgroundPosition = 'center';
 				document.getElementById('btnIco').style.backgroundRepeat = 'no-repeat';
 
@@ -3599,43 +3640,14 @@ if (isset($_SESSION['win'])) {
 	<!-- /Callback button JS -->
 
 	<script src="<?php echo get_template_directory_uri(); ?>/promo/js/quize.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-	<!-- <script src="assets/js/Accordion.js"></script>
+	<!-- <script src="assets/js/Accordion.js"></script>-->
+	<!-- 
+	<script type="text/javascript"
+		src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
+		id="OknaMobifon-script-js" defer="defer" data-wp-strategy="defer"></script> -->
 
-		<script
-			type="text/javascript"
-			src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
-			id="OknaMobifon-script-js"
-			defer="defer"
-			data-wp-strategy="defer"
-		></script> -->
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-		crossorigin="anonymous"></script>
-
-
-	<script>
-		// Функция для закрытия сообщения
-		function f1() {
-			const backgroundMsg = document.getElementById('background-msg');
-			const messageContainer = backgroundMsg ? backgroundMsg.parentElement : null;
-
-			if (messageContainer) {
-				messageContainer.style.display = 'none';
-			}
-		}
-
-		// Автоматически закрываем сообщение через 10 секунд
-		document.addEventListener('DOMContentLoaded', function () {
-			const messageContainer = document.querySelector('div[onclick="f1();"]');
-			if (messageContainer && messageContainer.style.display === 'block') {
-				setTimeout(function () {
-					f1();
-				}, 10000); // 10 секунд
-			}
-		});
-	</script>
 
 	<!-- Показываем сообщение об успешной отправки -->
 	<div style="display: <?php echo $display; ?>;" onclick="f1();">
@@ -3917,47 +3929,6 @@ if (isset($_SESSION['win'])) {
 		});
 	</script>
 
-	<script>
-		function i(t) {
-			const e = t.target;
-			let i = e.value.replace(/(?!^\+)\D/g, "")
-				, s = "+7";
-			0 === i.length && (s = ""),
-				i.startsWith("+") && (1 === i.length ? (i = i.slice(1),
-					s = "+") : (i = i.startsWith("+7") ? i.slice(2) : i.slice(1),
-						s = "+7")),
-				i.startsWith("7") && (i = i.slice(1)),
-				i.startsWith("8") && (i = i.slice(1),
-					s = "8"),
-				i.length > 0 && (s += " (" + i.substring(0, 3)),
-				i.length >= 4 && (s += ") " + i.substring(3, 6)),
-				i.length >= 7 && (s += "-" + i.substring(6, 8)),
-				i.length >= 9 && (s += "-" + i.substring(8, 10)),
-				e.value = s.trim(),
-				18 === e.value.length || s.startsWith("8") && 17 === e.value.length ? t.target.classList.add("is-valid") : t.target.classList.remove("is-valid")
-		}
-		document.querySelectorAll("[type='tel']").forEach((t => {
-			t.addEventListener("input", i)
-		}))
-		document.querySelectorAll("[required]").forEach((t => {
-			t.addEventListener("invalid", (function (t) {
-				t.preventDefault(),
-					t.target.classList.add("is-invalid"),
-					t.target.classList.remove("is-valid"),
-					console.log(t.target.validationMessage)
-			})),
-				t.addEventListener("valid", (function (t) {
-					t.preventDefault(),
-						console.log(111)
-				})),
-				t.addEventListener("input", (function (t) {
-					t.preventDefault(),
-						console.log(t.target.checkValidity()),
-						t.target.checkValidity() && (t.target.classList.add("is-valid"),
-							t.target.classList.remove("is-invalid"))
-				}))
-		}))
-	</script>
 </body>
 
 </html>
