@@ -161,11 +161,11 @@ if (isset($_SESSION['win'])) {
                 <div class="site-header__messengers">
                     <a href="https://wa.me/79938642678?text=Здравствуйте!" title="Написать в WhatsApp" target="_blank"
                         rel="nofollow">
-                        <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
+                        <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
                             alt="WhatsApp" />
                     </a>
                     <a href="https://t.me/+79852111060" title="Написать в Телеграм" target="_blank" rel="nofollow">
-                        <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
+                        <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
                             alt="Телеграм" />
                     </a>
                 </div>
@@ -466,11 +466,11 @@ if (isset($_SESSION['win'])) {
                 <div class="row justify-content-between">
                     <div class="col col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="card border-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Rehau.png" class="card-img-top"
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Rehau.png" class="card-img-top"
                                 alt="rehau" />
                             <div class="card-body text-center px-0">
                                 <h5 class="card-title">Rehau</h5>
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
                                     alt="5 звезд" />
 
                                 <p class="card-text card-price">
@@ -486,11 +486,11 @@ if (isset($_SESSION['win'])) {
 
                     <div class="col col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="card border-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/KBE.png" class="card-img-top"
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/KBE.png" class="card-img-top"
                                 alt="KBE" />
                             <div class="card-body text-center px-0">
                                 <h5 class="card-title">KBE</h5>
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
                                     alt="5 звезд" />
 
                                 <p class="card-text card-price">
@@ -506,11 +506,11 @@ if (isset($_SESSION['win'])) {
 
                     <div class="col col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="card border-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Novotex.png" class="card-img-top"
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Novotex.png" class="card-img-top"
                                 alt="Novotex" />
                             <div class="card-body text-center px-0">
                                 <h5 class="card-title">Novotex</h5>
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
                                     alt="5 звезд" />
 
                                 <p class="card-text card-price">
@@ -526,11 +526,11 @@ if (isset($_SESSION['win'])) {
 
                     <div class="col col-md-12 col-lg-6 mb-5 mb-lg-0">
                         <div class="card border-0">
-                            <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Provedal.png" class="card-img-top"
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Provedal.png" class="card-img-top"
                                 alt="Provedal" />
                             <div class="card-body text-center px-0">
                                 <h5 class="card-title">Provedal</h5>
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/stocks/Stars.svg" class="mb-2 img-fluid"
                                     alt="5 звезд" />
 
                                 <p class="card-text card-price">
@@ -562,7 +562,7 @@ if (isset($_SESSION['win'])) {
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-8 text-center mb-5 mb-lg-0">
                         <h3 class="mb-3 mb-md-2">Окно с <span>2 створками</span></h3>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-4.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-4.png"
                             class="mb-3 img-fluid w-100" alt="Окно с 2 створками" />
                         <div class="flag mx-auto">
                             <p class="card-discount-price">Скидка <span>1 250</span> руб</p>
@@ -576,7 +576,7 @@ if (isset($_SESSION['win'])) {
                     </div>
                     <div class="col-md-10 col-lg-8 text-center mb-5 mb-lg-0">
                         <h3 class="mb-3 mb-md-2">Окно с <span>3 створками</span></h3>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-5.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-5.png"
                             class="mb-3 img-fluid w-100" alt="Окно с 3 створками" />
                         <div class="flag mx-auto">
                             <p class="card-discount-price">Скидка <span>1 600</span> руб</p>
@@ -590,7 +590,7 @@ if (isset($_SESSION['win'])) {
                     </div>
                     <div class="col-md-10 col-lg-8 text-center mb-0">
                         <h3 class="mb-3 mb-md-2">Балконный <span>блок</span></h3>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-6.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-6.png"
                             class="mb-3 img-fluid w-100" alt="Балконный блокь" />
                         <div class="flag mx-auto">
                             <p class="card-discount-price">Скидка <span>2 050</span> руб</p>
@@ -621,7 +621,7 @@ if (isset($_SESSION['win'])) {
                         <h5 class="mb-3 section-windows-title">
                             Лоджия <span>«Прямой»</span> 3х1,5
                         </h5>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-1.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-1.png"
                             class="mb-3 img-fluid w-100 card-windows" alt="Окно с 2 створками" />
 
                         <div class="price-item-wrapper mb-3 px-md-3">
@@ -660,7 +660,7 @@ if (isset($_SESSION['win'])) {
                         <h5 class="mb-3 section-windows-title">
                             Балкон <span>«Угловой»</span> 3х1,5
                         </h5>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-2.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-2.png"
                             class="mb-3 img-fluid w-100 card-windows" alt="Окно с 3 створками" />
 
                         <div class="price-item-wrapper mb-3 px-md-3">
@@ -699,7 +699,7 @@ if (isset($_SESSION['win'])) {
                         <h5 class="mb-3 section-windows-title">
                             Балкон <span>«П-образный»</span> 3х1,5
                         </h5>
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-3.png"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/card-img-3.png"
                             class="mb-3 img-fluid w-100 card-windows" alt="Балконный блокь" />
 
                         <div class="price-item-wrapper mb-3 px-md-3">
@@ -763,7 +763,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -776,7 +776,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -789,7 +789,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -802,7 +802,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-4.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-4.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -815,7 +815,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-5.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-5.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -829,7 +829,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-6.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-1-6.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -877,7 +877,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -891,7 +891,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -905,7 +905,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-1-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -956,7 +956,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -972,7 +972,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -988,7 +988,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-2-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1038,7 +1038,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-3-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-3-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1054,7 +1054,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-3-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-3-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1104,7 +1104,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1118,7 +1118,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1134,7 +1134,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-4-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1182,7 +1182,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1195,7 +1195,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1209,7 +1209,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-5-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1257,7 +1257,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-6-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-6-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1270,7 +1270,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-6-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-2-6-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1451,7 +1451,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1467,7 +1467,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1484,7 +1484,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-4-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1532,7 +1532,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-1.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-1.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1545,7 +1545,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-2.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-2.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1559,7 +1559,7 @@ if (isset($_SESSION['win'])) {
                                             <div class="shadow-wrapper">
                                                 <div class="shadow-wrapper-decoration"></div>
                                             </div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-3.jpg"
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-img-5-3.jpg"
                                                 style="width: 100%" />
                                         </div>
                                     </label>
@@ -1608,7 +1608,7 @@ if (isset($_SESSION['win'])) {
                                             value="демонтаж старой конструкции" />
                                         <div class="option_inner text-start">
                                             <div class="shadow-wrapper-box"></div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
                                         </div>
                                     </label>
                                     <h6 class="quiz-section-h3 mb-4">
@@ -1620,7 +1620,7 @@ if (isset($_SESSION['win'])) {
                                         <input type="checkbox" id="answer-6-2" name="answer-6-2" class="checkbox" value="монтаж изделий" />
                                         <div class="option_inner text-start">
                                             <div class="shadow-wrapper-box"></div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
                                         </div>
                                     </label>
                                     <h6 class="quiz-section-h3 mb-4">Монтаж изделий</h6>
@@ -1630,7 +1630,7 @@ if (isset($_SESSION['win'])) {
                                         <input type="checkbox" id="answer-6-3" name="answer-6-3" class="checkbox" value="подоконник" />
                                         <div class="option_inner text-start">
                                             <div class="shadow-wrapper-box"></div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
                                         </div>
                                     </label>
                                     <h6 class="quiz-section-h3 mb-4">Подоконник</h6>
@@ -1640,7 +1640,7 @@ if (isset($_SESSION['win'])) {
                                         <input type="checkbox" id="answer-6-4" name="answer-6-4" class="checkbox" value="теплые откосы" />
                                         <div class="option_inner text-start">
                                             <div class="shadow-wrapper-box"></div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
                                         </div>
                                     </label>
                                     <h6 class="quiz-section-h3 mb-4">Теплые откосы</h6>
@@ -1650,7 +1650,7 @@ if (isset($_SESSION['win'])) {
                                         <input type="checkbox" id="answer-6-5" name="answer-6-5" class="checkbox" value="отлив" />
                                         <div class="option_inner text-start">
                                             <div class="shadow-wrapper-box"></div>
-                                            <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
+                                            <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/ico/checkbox.svg" />
                                         </div>
                                     </label>
                                     <h6 class="quiz-section-h3 mb-4">Отлив</h6>
@@ -1716,7 +1716,7 @@ if (isset($_SESSION['win'])) {
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <img src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-present-img.png"
+                                        <img loading="lazy" src="https://real-okno.ru/wp-content/themes/site100-windows/img/quiz/quiz-present-img.png"
                                             alt="Подарок" class="w-100" />
                                     </div>
                                 </div>
@@ -1795,7 +1795,7 @@ if (isset($_SESSION['win'])) {
                                     <h5 class="quiz-section-h3 mb-3">
                                         Нужна конcультация?<span> Отвечу на все вопросы</span>
                                     </h5>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/promo/img/director-img.jpg"
+                                    <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/director-img.jpg"
                                         class="img-fluid mb-2 w-100" style="max-width: 150px; border-radius: 50%" />
                                     <h5 class="quiz-section-h3 mb-4">
                                         Миронов Александр <br />
@@ -1817,7 +1817,7 @@ if (isset($_SESSION['win'])) {
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link ico-button ms-3 px-0" href="https://t.me/+79852111060">
-                                                <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
+                                                <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
                                                     alt="Телеграм" />
                                             </a>
                                         </li>
@@ -1835,11 +1835,11 @@ if (isset($_SESSION['win'])) {
         <section class="section form-smeta section-quality">
             <div class="container">
                 <div class="recalc_smeta">
-                    <img class="background desktop"
+                    <img loading="lazy" class="background desktop"
                         src="<?php echo get_template_directory_uri(); ?>/promo/img/smetaFon/smetaFon.png" />
-                    <img class="background tablet"
+                    <img loading="lazy" class="background tablet"
                         src="<?php echo get_template_directory_uri(); ?>/promo/img/smetaFon/smetaFon_768.png" />
-                    <img class="background mobile"
+                    <img loading="lazy" class="background mobile"
                         src="<?php echo get_template_directory_uri(); ?>/promo/img/smetaFon/smetaFon_320.png" />
                     <div class="blockCont">
                         <div class="text mb-3">
@@ -1948,7 +1948,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-1.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-1.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -1961,7 +1961,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-2.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-2.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -1974,7 +1974,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-3.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-3.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -1987,7 +1987,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-4.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/windows-4.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2006,15 +2006,15 @@ if (isset($_SESSION['win'])) {
 
                 <div class="row">
                     <div class="col-md-8">
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-4.webp"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-4.webp"
                             class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Для тех кто ценит качество, фурнитура Roto в наличии" />
                     </div>
                     <div class="col-md-8">
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-5.webp"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-5.webp"
                             class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Сезонное снижение цен -40%, самое время заказать остекление" />
                     </div>
                     <div class="col-md-8">
-                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-3.jpg"
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/action/action-card-3.jpg"
                             class="img-fluid rounded w-100 mb-3 mb-md-0" alt="Рассрочка на 1 год до 30 сентября" />
                     </div>
                 </div>
@@ -2029,10 +2029,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/1.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/1.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-1.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-1.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2044,10 +2044,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/2.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/2.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-2.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-2.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2059,10 +2059,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/3.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/3.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-3.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-3.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2074,10 +2074,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/4.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/4.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-4.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-4.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2089,10 +2089,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-4 mb-lg-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/5.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/5.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-5.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-5.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2104,10 +2104,10 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-4 mb-0">
                         <div class="row align-items-center">
                             <div class="col-12 text-center">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/6.svg" alt="Шаг" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/6.svg" alt="Шаг" class="img-fluid">
                             </div>
                             <div class="col-12">
-                                <img decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-6.svg" alt="Процесс" class="img-fluid">
+                                <img loading="lazy" decoding="async" src="<?php echo get_template_directory_uri(); ?>/promo/img/SVG/process-ico-6.svg" alt="Процесс" class="img-fluid">
                             </div>
                         </div>
                         <div class="row pt-3">
@@ -2139,7 +2139,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="child-lock" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-8.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-8.jpg"
                                     alt="Детский замок" class="card-image">
                                 <div class="image-text">Детский замок</div>
                             </div>
@@ -2152,7 +2152,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="anti-burglary-hardware" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-7.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-7.jpg"
                                     alt="Противовзломная фурнитура" class="card-image">
                                 <div class="image-text">Противовзломная фурнитура</div>
                             </div>
@@ -2165,7 +2165,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="step-ventilation" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-6.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-6.jpg"
                                     alt="Ступенчатое проветривание" class="card-image">
                                 <div class="image-text">Ступенчатое проветривание</div>
                             </div>
@@ -2178,7 +2178,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="hidden-hinges" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-5.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-5.jpg"
                                     alt="Скрытые петли" class="card-image">
                                 <div class="image-text">Скрытые петли</div>
                             </div>
@@ -2192,7 +2192,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="window-sills" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-4.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-4.jpg"
                                     alt="Подоконники для окон" class="card-image">
                                 <div class="image-text">Подоконники для окон</div>
                             </div>
@@ -2205,7 +2205,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="slope-finishing" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-3.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-3.jpg"
                                     alt="Отделка откосов" class="card-image">
                                 <div class="image-text">Отделка откосов</div>
                             </div>
@@ -2218,7 +2218,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="glass-unit-replacement" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-2.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-2.jpg"
                                     alt="Замена стеклопакета" class="card-image">
                                 <div class="image-text">Замена стеклопакета</div>
                             </div>
@@ -2231,7 +2231,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-sm-12 col-xl-6 mb-4">
                         <button data-button-context="remote-ventilation" data-bs-toggle="modal" data-bs-target="#feedback-modal" aria-label="Оставить заявку" class="card-link card-link-windows">
                             <div class="image-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-1.jpg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/windows/windows-better-1.jpg"
                                     alt="Дистанционное проветривание" class="card-image">
                                 <div class="image-text">Дистанционное проветривание</div>
                             </div>
@@ -2363,7 +2363,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-1.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-1.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2376,7 +2376,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-2.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-2.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2390,7 +2390,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-3.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-3.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2403,7 +2403,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-4.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-4.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2416,7 +2416,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-5.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-5.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2429,7 +2429,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-6 col-md-4 text-center">
-                                <img src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-6.svg"
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/promo/img/advantage/section-advantage-ico-6.svg"
                                     class="img-fluid" />
                             </div>
                             <div class="col-18 col-md-20" style="align-content: center">
@@ -2510,7 +2510,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-8">
                         <div class="section-reputation__item">
                             <div class="section-reputation__item-mark">
-                                <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-yandex-map.svg"
+                                <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-yandex-map.svg"
                                     alt="Яндекс Карты" />
                                 5.0
                             </div>
@@ -2526,7 +2526,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col-lg-8">
                         <div class="section-reputation__item">
                             <div class="section-reputation__item-mark">
-                                <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-2gis.svg" alt="2ГИС" />
+                                <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-2gis.svg" alt="2ГИС" />
                                 5
                             </div>
                             <div class="section-reputation__item-stars">
@@ -2544,67 +2544,67 @@ if (isset($_SESSION['win'])) {
                         <div class="carousel">
                             <div class="carousel__track">
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
                                         alt="Самолет" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
                                         alt="А101" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
                                         alt="Первый канал" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
                                         alt="МГТС" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
                                         alt="М.Видео" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
                                         alt="Gloria Jeans" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
                                         alt="KFC" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
                                         alt="Аэрофлот" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/samolet.png"
                                         alt="Самолет" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/a101.png"
                                         alt="А101" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/pervyj-kanal.png"
                                         alt="Первый канал" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mgts.png"
                                         alt="МГТС" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/mvideo.png"
                                         alt="М.Видео" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/gloriya.png"
                                         alt="Gloria Jeans" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/kfc.png"
                                         alt="KFC" />
                                 </div>
                                 <div class="brand-logo">
-                                    <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
+                                    <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/clients/aeroflot.png"
                                         alt="Аэрофлот" />
                                 </div>
                             </div>
@@ -4788,7 +4788,7 @@ if (isset($_SESSION['win'])) {
                     <div class="col">
                         <section class="section-callback">
                             <div class="section__bg section-callback__bg">
-                                <img width="784" height="627" src="https://oknamobifon.ru/wp-content/uploads/2025/05/386031-1.jpg"
+                                <img loading="lazy" width="784" height="627" src="https://oknamobifon.ru/wp-content/uploads/2025/05/386031-1.jpg"
                                     class="attachment-large size-large" alt="" decoding="async" srcset="
 											https://oknamobifon.ru/wp-content/uploads/2025/05/386031-1.jpg         784w,
 											https://oknamobifon.ru/wp-content/uploads/2025/05/386031-1-300x240.jpg 300w,
@@ -4912,12 +4912,12 @@ if (isset($_SESSION['win'])) {
                     <div class="site-footer__messangers">
                         <a href="https://wa.me/79938642678?text=Здравствуйте!" title="Написать в WhatsApp" target="_blank"
                             rel="nofollow">
-                            <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
+                            <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
                                 alt="WhatsApp" />
                             Написать <br />в WhatsApp ↗
                         </a>
                         <a href="https://t.me/+79852111060" title="Написать в Телеграм" target="_blank" rel="nofollow">
-                            <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
+                            <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
                                 alt="Телеграм" />
                             Написать <br />в Телеграм ↗
                         </a>
@@ -5084,12 +5084,12 @@ if (isset($_SESSION['win'])) {
                 <div class="offcanvas__messengers">
                     <a href="https://wa.me/79938642678?text=Здравствуйте!" title="Написать в WhatsApp" target="_blank"
                         rel="nofollow">
-                        <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
+                        <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-whatsapp.svg"
                             alt="WhatsApp" />
                         Написать <br />в WhatsApp ↗
                     </a>
                     <a href="https://t.me/+79852111060" title="Написать в Телеграм" target="_blank" rel="nofollow">
-                        <img src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
+                        <img loading="lazy" src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/img/icon-telegram.svg"
                             alt="Телеграм" />
                         Написать <br />в Телеграм ↗
                     </a>
@@ -5332,6 +5332,21 @@ if (isset($_SESSION['win'])) {
 	<script type="text/javascript"
 		src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
 		id="OknaMobifon-script-js" defer="defer" data-wp-strategy="defer"></script> -->
+
+    <!-- Загрузка изображений с приоритетом    -->
+    <script>
+        if ("loading" in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach((img) => {
+                img.src = img.dataset.src;
+            });
+        } else {
+            // Dynamically import the LazySizes library
+            const script = document.createElement("script");
+            script.src = "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+            document.body.appendChild(script);
+        }
+    </script>
 
 
     <!-- Показываем сообщение об успешной отправки -->
