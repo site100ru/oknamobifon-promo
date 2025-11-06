@@ -2632,7 +2632,7 @@ if (isset($_SESSION['win'])) {
                 <!-- Табы -->
                 <div class="row">
                     <div class="col nav-scroller">
-                        <ul class="nav justify-content-md-center d-flex m-auto mb-3 mb-md-5" id="worksTab" role="tablist">
+                        <ul class="nav d-flex m-auto mb-3 mb-md-5" id="worksTab" role="tablist">
                             <li class="nav-item nav-item-tab" role="presentation">
                                 <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">
                                     Все работы
