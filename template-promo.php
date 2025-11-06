@@ -5333,12 +5333,15 @@ if (isset($_SESSION['win'])) {
 		src="https://oknamobifon.ru/wp-content/themes/oknamobifon/assets/js/main.bundle.min.js?ver=0.0.60"
 		id="OknaMobifon-script-js" defer="defer" data-wp-strategy="defer"></script> -->
 
-    <!-- Загрузка изображений с приоритетом    -->
+    <!-- Загрузка изображений с приоритетом -->
     <script>
         if ("loading" in HTMLImageElement.prototype) {
             const images = document.querySelectorAll('img[loading="lazy"]');
             images.forEach((img) => {
-                img.src = img.dataset.src;
+                // Проверка наличия dataset.src у изображения
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                } 
             });
         } else {
             // Dynamically import the LazySizes library
@@ -5347,6 +5350,7 @@ if (isset($_SESSION['win'])) {
             document.body.appendChild(script);
         }
     </script>
+
 
 
     <!-- Показываем сообщение об успешной отправки -->
