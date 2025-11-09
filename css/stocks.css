@@ -1656,3 +1656,8 @@ button.card-link.card-link-windows .btn {
 .nav-scroller svg {
     color: var(--bs-link-color);
 }
+
+.gallery-grid .carousel:after,
+.gallery-grid .carousel:before {
+    content: none;
+}

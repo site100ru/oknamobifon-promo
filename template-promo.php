@@ -3447,6 +3447,92 @@ if (isset($_SESSION['win'])) {
                                 </div>
                             </div>
 
+                            <div class="col-md-11">
+                                <div class="gallery-grid">
+                                    <div id="carouselAll-Pavilions-2" class="carousel slide mb-3" data-bs-ride="carousel" data-bs-interval="999999999">
+                                        <div class="carousel-indicators" style="bottom: 5%;">
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner rounded">
+                                            <div class="carousel-item active" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-6.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-6.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-1.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-1.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-2.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-2.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-3.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-3.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-4.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-4.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-5.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-5.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Назад</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAll-Pavilions-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Вперед</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="text-wrapper">
+                                    <p class="mb-0"><strong>Остекление беседки в г. Обнинск.</strong></p>
+                                    <p class="mb-0"><strong>Что сделано:</strong></p>
+                                    <ul class="mb-0">
+                                        <li>Окна из холодного профиля Provedal.</li>
+                                        <li>Окраска по шкале RAL 8017 цвет коричневый.</li>
+                                        <li>Стекло Бронза в массе 5 мм.</li>
+                                    </ul>
+                                    <p class="mb-0"><strong>Срок изготовления:</strong> 10 дней.</p>
+                                    <p class="mb-0"><strong>Срок монтажа:</strong> 2 дня.</p>
+                                    <p><strong>Стоимость проекта:</strong> 235 500 руб.</p>
+                                </div>
+                            </div>
+
                             <!-- Коттеджи -->
                             <div class="col-md-11">
                                 <div class="gallery-grid">
@@ -3645,7 +3731,6 @@ if (isset($_SESSION['win'])) {
                                     <p><strong>Стоимость работ:</strong> 50 000 руб.</p>
                                 </div>
                             </div>
-                            <div class="col-md-11"></div>
                         </div>
                     </div>
 
@@ -4390,7 +4475,91 @@ if (isset($_SESSION['win'])) {
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-md-11">
+                                <div class="gallery-grid">
+                                    <div id="carouselPavilions-2" class="carousel slide mb-3" data-bs-ride="carousel" data-bs-interval="999999999">
+                                        <div class="carousel-indicators" style="bottom: 5%;">
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#carouselPavilions-2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner rounded">
+                                            <div class="carousel-item active" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-6.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-6.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-1.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-1.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-2.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-2.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-3.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-3.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-4.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-4.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="carousel-item" data-bs-interval="999999999">
+                                                <a href="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-5.webp" data-pswp-width="1200" data-pswp-height="900" class="gallery-grid__item">
+                                                    <div class="single-product-img approximation">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/promo/img/gallery/pavilion-2-5.webp" class="shadow rounded d-block w-100" alt="..." loading="lazy">
+                                                        <div class="magnifier"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPavilions-2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Назад</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPavilions-2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Вперед</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="text-wrapper">
+                                    <p class="mb-0"><strong>Остекление беседки в г. Обнинск.</strong></p>
+                                    <p class="mb-0"><strong>Что сделано:</strong></p>
+                                    <ul class="mb-0">
+                                        <li>Окна из холодного профиля Provedal.</li>
+                                        <li>Окраска по шкале RAL 8017 цвет коричневый.</li>
+                                        <li>Стекло Бронза в массе 5 мм.</li>
+                                    </ul>
+                                    <p class="mb-0"><strong>Срок изготовления:</strong> 10 дней.</p>
+                                    <p class="mb-0"><strong>Срок монтажа:</strong> 2 дня.</p>
+                                    <p><strong>Стоимость проекта:</strong> 235 500 руб.</p>
+                                </div>
                             </div>
                         </div>
 
@@ -5341,7 +5510,7 @@ if (isset($_SESSION['win'])) {
                 // Проверка наличия dataset.src у изображения
                 if (img.dataset.src) {
                     img.src = img.dataset.src;
-                } 
+                }
             });
         } else {
             // Dynamically import the LazySizes library
